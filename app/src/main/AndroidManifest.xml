@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentmanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FacultycourseslistActivity" ></activity>
+        <activity android:name=".StudentMarksViewActivity" />
+        <activity android:name=".StudentMRegisteredcoursesActivity" />
+        <activity android:name=".StudentAttendanceViewActivity" />
+        <activity android:name=".StudentARegisteredcoursesActivity" />
+        <activity android:name=".FacultyAddCoursesActivity" />
+        <activity android:name=".FacultyViewStudentMarksActivity" />
+        <activity android:name=".FacultyVMarksCoursesStudentListActivity" />
+        <activity android:name=".FacultyVMarksCoursesActivity" />
+        <activity android:name=".FacultyAddedStudentMarksActivity" />
+        <activity android:name=".FacultyMarksCoursesStudentListActivity" />
+        <activity android:name=".FacultyMarksCoursesActivity" />
+        <activity android:name=".FacultyViewStudentAttendanceActivity" />
+        <activity android:name=".FacultyVCoursesStudentListActivity" />
+        <activity android:name=".FacultyVCoursesActivity" />
+        <activity android:name=".FacultyAddedStudentAttendanceActivity" />
+        <activity android:name=".FacultyCoursesStudentListActivity" />
+        <activity android:name=".FacultyCoursesActivity" />
+        <activity android:name=".FacultyMarksActivity" />
+        <activity android:name=".FacultyAttendanceActivity" />
+        <activity android:name=".AddAdminActivity" />
+        <activity android:name=".AddFacultyActivity" />
+        <activity android:name=".FacultyStudentListActivity" />
+        <activity android:name=".StudentListActivity" />
+        <activity android:name=".FacultyListActivity" />
+        <activity android:name=".FacultyHomeActivity" />
+        <activity android:name=".AdmincourseslistActivity" />
+        <activity android:name=".AdminHomeActivity" />
+        <activity android:name=".AddcoursesActivity" />
+        <activity android:name=".RegisteredcoursesActivity" />
+        <activity android:name=".CourseslistActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
